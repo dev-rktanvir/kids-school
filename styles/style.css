@@ -1,0 +1,80 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+/* Colors */
+.color-orange{
+    color: #FEA301;
+}
+.color-sky-blue{
+    color: #01ACFD;
+}
+.color-light-blue{
+    color: #05D4DF;
+}
+.color-purple{
+    color: #5D58EF;
+}
+
+/* Background colors */
+.bg-orange{
+    background-color: #FEA301;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-light-blue{
+    background-color: #05D4DF;
+}
+.bg-purple{
+    background-color: #5D58EF;
+}
+.bg-light-green{
+    background-color: #95B226;
+}
+
+/* Section releted style */
+.section-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 3.59375rem;
+    color: black;
+}
+.text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.section-gap{
+    padding: 3.75rem 0;
+}
+img{
+    width: 100%;
+}
+
+.btn{
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+}
+
+/* *************************************************************************** */
