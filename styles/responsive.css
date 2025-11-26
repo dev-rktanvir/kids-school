@@ -1,23 +1,59 @@
 @media screen and (max-width: 576px) {
+
     /* Global */
+    html {
+        font-size: 12px;
+    }
+
     /* NavBar style */
-    .navbar{
+    .navbar {
         display: none;
     }
-    .navbar-mobile{
+
+    .navbar-mobile {
         display: flex;
+    }
+
+    /* Banner style */
+    .banner {
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .banner-title{
+        font-size: 3rem;
+        line-height: 3.5rem;
     }
 }
 
 /* Responsive for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+
     /* Global */
+    html {
+        font-size: 14px;
+    }
 
     /* NavBar style */
-    .navbar{
+    .navbar {
         display: none;
     }
-    .navbar-mobile{
+
+    .navbar-mobile {
         display: flex;
     }
+
+     /* Banner style */
+    .banner {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .banner-title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    
 }

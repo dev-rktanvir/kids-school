@@ -18,6 +18,10 @@ html {
     font-size: 16px;
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 .container {
     max-width: 1160px;
     margin: 0 auto;
@@ -45,6 +49,10 @@ html {
 
 .text-purple {
     color: #5D58EF;
+}
+
+.text-black {
+    color: black;
 }
 
 /* Background colors */
@@ -100,7 +108,8 @@ img {
     line-height: 30px;
     color: white;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
 
@@ -114,6 +123,7 @@ img {
 
 .navbar-mobile {
     padding: 12px 16px;
+    border-bottom: 0.5px solid #FEA301;
 }
 
 .logo {
@@ -138,4 +148,24 @@ img {
 
 .navLinks {
     text-decoration: none;
+}
+
+/* Banner style */
+.banner{
+    gap: 50px;
+}
+.banner-content {
+    max-width: 640px;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    line-height: 3.8125rem;
+    font-weight: 700;
+}
+
+.banner-text {
+    color: black;
+    margin: 24px 0;
+    font-size: 1.25rem;
 }
