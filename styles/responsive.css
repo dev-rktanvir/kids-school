@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    /* Global */
+    /* NavBar style */
+    .navbar{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+    }
+}
+
+/* Responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* Global */
+
+    /* NavBar style */
+    .navbar{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+    }
+}

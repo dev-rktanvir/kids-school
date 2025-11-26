@@ -2,79 +2,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-font {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* Global Css */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     font-size: 16px;
 }
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Colors */
-.color-orange{
+.text-orange {
     color: #FEA301;
 }
-.color-sky-blue{
+
+.text-sky-blue {
     color: #01ACFD;
 }
-.color-light-blue{
+
+.text-light-blue {
     color: #05D4DF;
 }
-.color-purple{
+
+.text-purple {
     color: #5D58EF;
 }
 
 /* Background colors */
-.bg-orange{
+.bg-orange {
     background-color: #FEA301;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
-.bg-light-blue{
+
+.bg-light-blue {
     background-color: #05D4DF;
 }
-.bg-purple{
+
+.bg-purple {
     background-color: #5D58EF;
 }
-.bg-light-green{
+
+.bg-light-green {
     background-color: #95B226;
 }
 
 /* Section releted style */
-.section-title{
+.section-title {
     font-size: 2.875rem;
     font-weight: 700;
     line-height: 3.59375rem;
     color: black;
 }
-.text{
+
+.text {
     font-size: 1rem;
     font-weight: 500;
     color: #808080;
 }
-.section-gap{
+
+.section-gap {
     padding: 3.75rem 0;
 }
-img{
+
+img {
     width: 100%;
 }
 
-.btn{
+.btn {
     border-radius: 12px;
     border: none;
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 10px 50px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 30px;
     color: white;
 }
+.hidden{
+    display: none;
+}
 
 /* *************************************************************************** */
+
+/* Navbar Style */
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-mobile {
+    padding: 12px 16px;
+}
+
+.logo {
+    width: 46px;
+    height: 46px;
+}
+
+.brand-text {
+    margin-left: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.navItems {
+    gap: 32px;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.navLinks {
+    text-decoration: none;
+}
