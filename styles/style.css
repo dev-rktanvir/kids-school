@@ -310,3 +310,48 @@ img {
     border: none;
     margin-top: -58px;
 }
+
+/* Footer style */
+.footer{
+    background-color: #01ACFD;
+    color: white;
+    padding: 80px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img{
+    width: 80px;
+    height: 80px;
+}
+.footer-title{
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 2.46rem;
+}
+.footer-text{
+    font-size: 1.25rem;
+    max-width: 400px;
+    margin-top: 30px;
+}
+.footer .navLinks{
+    margin-bottom: 20px;
+}
+.left-text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-it{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.social{
+    gap: 10px;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}

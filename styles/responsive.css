@@ -58,6 +58,13 @@
     .stories {
         padding: 30px 0;
     }
+
+    /* footer style */
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
 }
 
 /* Responsive for medium devices */
@@ -100,7 +107,14 @@
     .stories-cards {
         flex-direction: column;
     }
+
     .col {
         width: 100%;
+    }
+    /* footer style */
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
     }
 }
