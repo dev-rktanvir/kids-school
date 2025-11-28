@@ -32,6 +32,32 @@
         margin: 40px 0;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* stories style */
+    .left-col {
+        display: none;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+
+    .stories-content {
+        padding: 15px;
+    }
+
+    .stories-btn {
+        padding: 5px 10px;
+        margin-top: -40px;
+    }
+
+    .stories-cards {
+        margin: 40px 0;
+    }
+
+    .stories {
+        padding: 30px 0;
+    }
 }
 
 /* Responsive for medium devices */
@@ -67,7 +93,14 @@
     /* curriculm style */
     .curriculum-cards {
         margin: 40px 0;
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
+    /* stories style */
+    .stories-cards {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
 }
