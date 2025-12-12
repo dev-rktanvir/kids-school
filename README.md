@@ -1,8 +1,8 @@
 <p align="center">
-  <strong> Live Link: https://dev-rktanvir-kids-school.netlify.app/</strong>
+  <strong> Live Link: https://dev-rktanvir.github.io/kids-school/ </strong>
 </p>
 
-![Hero Section](https://github.com/dev-rktanvir/kids-school/blob/main/screenshots/kids-school-hero.png)
+![Hero Section](https://github.com/dev-rktanvir/kids-school/blob/main/screenshorts/kids-school.png)
 
 # 🏫 Kids School – Kindergarten & Elementary Landing Page  
 A bright, playful, and fully responsive **landing page** designed for educational institutions, created using **HTML**, **CSS**, and **responsive design principles**.  
@@ -84,11 +84,11 @@ CSS is modular and responsive, making changes quick and easy.
 
 | Hero | Curriculum | Stories |
 | ---- | ---------- | ------- |
-| <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshots/kids-school-hero.png" width="250"/> | <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshots/kids-school-curriculum.png" width="250"/> | <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshots/kids-school-stories.png" width="250"/> |
+| <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshorts/kids-school-hero.png" width="250"/> | <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshorts/kids-school-curriculum.png" width="250"/> | <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshorts/kids-school-stories.png" width="250"/> |
 
 | Footer |
 | ------ |
-| <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshots/kids-school-footer.png" width="250"/> |
+| <img src="https://github.com/dev-rktanvir/kids-school/blob/main/screenshorts/kids-school-footer.png" width="250"/> |
 
 ---
 
